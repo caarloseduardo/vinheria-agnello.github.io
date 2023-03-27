@@ -1,0 +1,76 @@
+.hero-container {
+  background-image: url("../assets/champagne.png");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* Title */
+.hero-description {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  row-gap: 32px;
+  align-items: center;
+  color: var(--white);
+}
+
+.hero-description .push-button {
+  height: 86px;
+  width: 86px;
+
+  background: #a40e4c80;
+
+  border-radius: 0.25rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-description > h1 {
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 690px;
+  font-size: 2.625rem;
+}
+
+.hero-description > span {
+  max-width: 635px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  opacity: 0.7;
+  margin-top: 32px;
+}
+
+.wine-types-container {
+  padding: 142px 120px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  row-gap: 64px;
+}
+
+.wine-types-container .wine-type-item {
+  display: flex;
+  align-items: center;
+
+  column-gap: 64px;
+}
+
+.wine-types-container .wine-type-item .wine-type-item-image {
+  border-radius: 0.25rem;
+}
+
+.wine-types-container .wine-type-item .wine-type-item-content {
+  display: flex;
+  flex-direction: column;
+
+  row-gap: 26px;
+}
