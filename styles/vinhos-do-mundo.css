@@ -1,5 +1,5 @@
 .hero-container {
-  background-image: url(../assets/champagne.png);
+  background-image: url("../assets/world-bg.png");
   background-size: cover;
   width: 100%;
   height: 100%;
